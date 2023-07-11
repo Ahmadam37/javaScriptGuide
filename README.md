@@ -38,7 +38,7 @@ I hope this helps!
 
  In this section you will learn read and write Javascript and you will learn how to give browser instruction you want it to follow.
  
-** Statements **
+**Statements**
     Script is a serise of instructions that a computer can follow one-byone each indiviual instruction or step in kown as a statment.
 (NOTE: Statment should end with semicolon.)
 
@@ -66,10 +66,10 @@ We will look at what the code on the above dose shorlty, but for the moment not 
 
 Now we will talk about COMMENTS
 
-** Comments **
-  _ You should write comment to explin what your code dose.
-  _ They help your code easier to read and understand.
-  _ This can help you and others who read your code.
+**Comments**
+  1. You should write comment to explin what your code dose.
+  1. They help your code easier to read and understand.
+  1. This can help you and others who read your code.
 
   ```javascript
 var today = new Date(); // Create a new data object.
