@@ -113,13 +113,13 @@ document.write(greeting)
 const ceilNumber = Math.ceil(10.1); // This is to Round the number to the lagrgest number
 ```
 
-* output
+* The output is:
 
 > 11
 
 
 **Math.floor()**
-1. Math.floor() is a method to round the number to the smallest number.
+2. Math.floor() is a method to round the number to the smallest number.
 
   ```javascript
 const floorNumber = Math.floor(10.1); // This is to Round the number to the smallest number
@@ -129,8 +129,8 @@ const floorNumber = Math.floor(10.1); // This is to Round the number to the smal
   > 10
 
 
-  **Math.round**
-  1. Math.round() is a method to eound the number to the nearest integer.
+**Math.round**
+3. Math.round() is a method to eound the number to the nearest integer.
  
  ```javascript
 const roundNumber = Math.round(9.9); // This is to round the number to the nearest integer.
