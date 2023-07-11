@@ -102,7 +102,7 @@ document.write(greeting)
 
 
 
-# Math
+# JavaScript Math Object
 ### The JavaScript Math object is a built-in object that provides a number of methods and properties for performing mathematical tasks. 
 
 
