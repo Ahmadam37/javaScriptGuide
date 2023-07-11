@@ -48,7 +48,7 @@ var hourNow = today.getHours();
 var greeting;
 
 if(hourNow > 18){
-greeting = 'Goof evening'
+greeting = 'Good evening'
 } else if (hourNow > 12){
 greeting = 'Good morning'
 } else {
@@ -56,3 +56,7 @@ greeting = 'welcome'
 }
 document.write(greeting)
 ```
+
+We will look at what the code on the above dose shorlty, but for the moment not that.
+
+ * Each of the lines of code in the code are statment unless the line include "if", "else if","else" are not statment. 
