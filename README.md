@@ -86,3 +86,32 @@ greeting = 'welcome'
 }
 document.write(greeting)
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Math
+### The JavaScript Math object is a built-in object that provides a number of methods and properties for performing mathematical tasks. 
+
+
+**Math.ceil()**
+Math.ceil() is a method to eound the number to the largest number.
+  ```javascript
+const ceilNumber = Math.ceil(10.1); // This is to Round the number to the lagrgest number
+```
+
+* output
+
+> 11
