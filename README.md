@@ -29,3 +29,16 @@ I hope this helps!
 
 
  /* Also I have read the book of JON DUCKETT for JavaScript and i will write the summry of it in this repo */
+
+
+
+
+
+ # Basic JAVASCRIPT INSTRUCTIONS
+
+ -- In this section you will learn read and write Javascript and you will learn how to give browser instruction you want it to follow.
+ 
+* Statements:
+* Script is a serise of instructions that a computer can follow one-byone each indiviual instruction or step in kown as a statment.
+(NOTE: Statment should end with semicolon.)
+
