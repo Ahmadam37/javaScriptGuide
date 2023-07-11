@@ -107,7 +107,8 @@ document.write(greeting)
 
 
 **Math.ceil()**
-Math.ceil() is a method to eound the number to the largest number.
+1. Math.ceil() is a method to reound the number to the largest number.
+
   ```javascript
 const ceilNumber = Math.ceil(10.1); // This is to Round the number to the lagrgest number
 ```
@@ -115,3 +116,25 @@ const ceilNumber = Math.ceil(10.1); // This is to Round the number to the lagrge
 * output
 
 > 11
+
+
+**Math.floor()**
+1. Math.floor() is a method to round the number to the smallest number.
+
+  ```javascript
+const floorNumber = Math.floor(10.1); // This is to Round the number to the smallest number
+```
+
+* The output is:
+  > 10
+
+
+  **Math.round**
+  1. Math.round() is a method to eound the number to the nearest integer.
+ 
+ ```javascript
+const roundNumber = Math.round(9.9); // This is to round the number to the nearest integer.
+```
+
+* The output is:
+  > 10
