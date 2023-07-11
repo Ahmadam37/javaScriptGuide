@@ -38,7 +38,7 @@ I hope this helps!
 
  In this section you will learn read and write Javascript and you will learn how to give browser instruction you want it to follow.
  
-* Statements:
+** Statements **
     Script is a serise of instructions that a computer can follow one-byone each indiviual instruction or step in kown as a statment.
 (NOTE: Statment should end with semicolon.)
 
@@ -59,4 +59,30 @@ document.write(greeting)
 
 We will look at what the code on the above dose shorlty, but for the moment not that.
 
- * Each of the lines of code in the code are statment unless the line include "if", "else if","else" are not statment. 
+ * Each of the lines of code in the code are statment unless the line include "if", "else if","else" are not statment.
+ * The code include "if", "else if","else" determines which code should run. 
+
+
+
+Now we will talk about COMMENTS
+
+** Comments **
+  _ You should write comment to explin what your code dose.
+  _ They help your code easier to read and understand.
+  _ This can help you and others who read your code.
+
+  ```javascript
+var today = new Date(); // Create a new data object.
+var hourNow = today.getHours(); // Find the current hour.
+var greeting;
+
+// Display the approprate greeting on the current time.
+if(hourNow > 18){
+greeting = 'Good evening'
+} else if (hourNow > 12){
+greeting = 'Good morning'
+} else {
+greeting = 'welcome'
+}
+document.write(greeting)
+```
