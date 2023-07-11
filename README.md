@@ -26,3 +26,6 @@ License
 This repository is licensed under the MIT License.
 
 I hope this helps!
+
+
+ * Also I have read the book of JON DUCKETT for JavaScript and i will write the summry of it in this repo * 
