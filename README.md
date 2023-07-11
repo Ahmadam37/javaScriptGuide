@@ -36,9 +36,10 @@ I hope this helps!
 
  # Basic JAVASCRIPT INSTRUCTIONS
 
- -- In this section you will learn read and write Javascript and you will learn how to give browser instruction you want it to follow.
+ In this section you will learn read and write Javascript and you will learn how to give browser instruction you want it to follow.
  
 * Statements:
-* Script is a serise of instructions that a computer can follow one-byone each indiviual instruction or step in kown as a statment.
+    Script is a serise of instructions that a computer can follow one-byone each indiviual instruction or step in kown as a statment.
 (NOTE: Statment should end with semicolon.)
+
 
