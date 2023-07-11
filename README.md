@@ -42,4 +42,8 @@ I hope this helps!
     Script is a serise of instructions that a computer can follow one-byone each indiviual instruction or step in kown as a statment.
 (NOTE: Statment should end with semicolon.)
 
-
+```javascript
+var today = new Date();
+var hourNow = today.getHours();
+var greeting;
+```
