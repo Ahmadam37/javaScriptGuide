@@ -21,7 +21,7 @@ Contents
 
 This repository is open to contributions. If you find any errors in the guide or if you have suggestions for improvement, please feel free to open an issue or submit a pull request.
 
-- License
+License
 
 This repository is licensed under the MIT License.
 
