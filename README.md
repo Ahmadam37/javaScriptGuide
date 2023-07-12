@@ -139,3 +139,39 @@ const roundNumber = Math.round(9.9); // This is to round the number to the neare
 
 * The output is:
   > 10
+
+
+**Math.min()**
+4. Math.min() the method return the minimum value in the array.
+
+ ```javascript
+ const arrayOne = [10, 9, 8, 0];
+      const minNumber = Math.min(...arrayOne);
+      console.log(
+        "The Math.min() returns the smallest number in the array = " + minNumber
+      );
+
+```
+
+
+* The output:
+> 0
+
+
+**Math.max()**
+
+5. Math.max() is a method to return the largest number in the array.
+
+ ```javascript
+ const arrayOne = [10, 9, 8, 0];
+      const minNumber = Math.max(...arrayOne);
+      console.log(
+        "The Math.min() returns the largest number in the array = " + minNumber
+      );
+
+```
+
+* The output:
+> 10
+
+
