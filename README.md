@@ -87,9 +87,20 @@ greeting = 'welcome'
 }
 document.write(greeting)
 ```
+* Also, we have a multiline cooments and we do it to take out some of the code out, why we doing that, to test somthing in the code or debuging another lines of code but we dont want to remove it.
 
+* Multi-line comment are often used for descriptions of how the script works, or to prevent a secrtion of the script from running when testing it.
 
-
+```javascript
+//MULTI-LINE COMMENT
+  <!-- <h1>This is training for JavaScript</h1>
+      <ul>
+        <h3>This is for getElementById</h3>
+        <li id="first-li">Kotlin</li>
+        <li id="second-li">JavaScript</li>
+        <li id="last-li">Swift</li>
+      </ul> -->
+```
 
 
 
