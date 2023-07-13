@@ -93,13 +93,10 @@ document.write(greeting)
 
 ```javascript
 //MULTI-LINE COMMENT
-  <!-- <h1>This is training for JavaScript</h1>
-      <ul>
-        <h3>This is for getElementById</h3>
-        <li id="first-li">Kotlin</li>
-        <li id="second-li">JavaScript</li>
-        <li id="last-li">Swift</li>
-      </ul> -->
+/*<div class="lango">
+        <h1 id="helo">We will use Javascript</h1>
+        <p>This is the test</p>
+      </div> */
 ```
 
 
