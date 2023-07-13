@@ -93,10 +93,12 @@ document.write(greeting)
 
 ```javascript
 //MULTI-LINE COMMENT
-/*<div class="lango">
+/*
+<div class="lango">
         <h1 id="helo">We will use Javascript</h1>
         <p>This is the test</p>
-      </div> */
+      </div>
+*/
 ```
 
 
