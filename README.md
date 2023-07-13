@@ -118,6 +118,7 @@ document.write(greeting)
 
 
 **Math.ceil()**
+
 1. Math.ceil() is a method to reound the number to the largest number.
 
   ```javascript
@@ -125,11 +126,11 @@ const ceilNumber = Math.ceil(10.1); // This is to Round the number to the lagrge
 ```
 
 * The output is:
-
 > 11
 
 
 **Math.floor()**
+
 2. Math.floor() is a method to round the number to the smallest number.
 
   ```javascript
@@ -141,6 +142,7 @@ const floorNumber = Math.floor(10.1); // This is to Round the number to the smal
 
 
 **Math.round**
+
 3. Math.round() is a method to eound the number to the nearest integer.
  
  ```javascript
@@ -150,9 +152,24 @@ const roundNumber = Math.round(9.9); // This is to round the number to the neare
 * The output is:
   > 10
 
+**Math.trunc()**
+
+4. Math.trunc() static method returns the integer part of a number by removing any fractional digits.
+
+```javascript
+ const truncNumber = Math.trunc(4.16);
+      console.log(
+        "The Math.trunc() static method returns the integer part of a number by removing any fractional digits = " +
+          truncNumber
+      );
+```
+
+* The output:
+  > 4
 
 **Math.min()**
-4. Math.min() the method return the minimum value in the array.
+
+5. Math.min() the method return the minimum value in the array.
 
  ```javascript
  const arrayOne = [10, 9, 8, 0];
@@ -165,12 +182,12 @@ const roundNumber = Math.round(9.9); // This is to round the number to the neare
 
 
 * The output:
-> 0
+  > 0
 
 
 **Math.max()**
 
-5. Math.max() is a method to return the largest number in the array.
+6. Math.max() is a method to return the largest number in the array.
 
  ```javascript
  const arrayOne = [10, 9, 8, 0];
@@ -182,6 +199,50 @@ const roundNumber = Math.round(9.9); // This is to round the number to the neare
 ```
 
 * The output:
-> 10
+  > 10
 
+
+**Math.abs()**
+
+7. Math.abs() static method returns the absolute value of a number.
+
+```javascript
+const absNumber = Math.abs(-8);
+console.log(absNumber);
+```
+
+* The output:
+  > 8
+
+
+**Math.sgin()**
+
+8. The Math.sign() static method is a useful tool for determining the sign of a number. If you need to know whether a number is positive, negative, or zero.
+
+```javascript
+const signNumber = -10;
+const theSign = Math.sign(signNumber);
+console.log(theSign);
+```
+* The output:
+  > 10
+
+**Math.pow()**
+
+9. The Math.pow() method is a versatile tool that can be used to calculate a wide range of powers. If you need to calculate the power of a number.
+
+The syntax for the Math.pow() method is as follows:
+
+```javascript
+Math.pow(base, exponent)
+```
+
+```javascript
+      const base = 2;
+      const exponent = 3;
+      const powerNumber = Math.pow(base, exponent);
+      console.log(powerNumber);
+```
+* The output:
+  > 8
 
