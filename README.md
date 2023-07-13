@@ -34,7 +34,7 @@ I hope this helps!
 
 
 
- # Basic JAVASCRIPT INSTRUCTIONS
+ ## Basic JAVASCRIPT INSTRUCTIONS
 
  ### In this section you will learn read and write Javascript and you will learn how to give browser instruction you want it to follow.
  
@@ -113,7 +113,7 @@ document.write(greeting)
 
 
 
-# JavaScript Math Object
+## JavaScript Math Object
 ### The JavaScript Math object is a built-in object that provides a number of methods and properties for performing mathematical tasks. 
 
 
@@ -246,3 +246,22 @@ Math.pow(base, exponent)
 * The output:
   > 8
 
+
+
+## Converting values in Javascript.
+
+In this section we will learn how to convert the values from number to string and from string to number.
+
+**parseFloat()**
+
+1. parseFloat() is a method to convert an integer to a string.
+
+
+```javascript
+const floatToInteger = "12";
+const floatNumber = parseFloat(floatToInteger);
+console.log(floatNumber + 10);
+```
+
+* The output:
+ > 22 
