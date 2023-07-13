@@ -103,7 +103,23 @@ document.write(greeting)
 
 
 
+### What is a varibale? 
 
+A script will have temporarily store the bit of information it needs to do its job. It can store this data in variables.
+
+When you write a javascript, you have to tell the intepreter evrey indiviual step that you want it to perform. This sometimes involves more detail than you might expect.
+
+
+Think about calculating the area of wall, in math the area of a rectangle is obtained by multiplying tow numbers:
+
+* width * hight = area
+
+You mghit be able to calculate this, but if you write a script you have to give computer very detailed instruction.
+
+1. Remember the value for width.
+2. Remember the value for hight.
+3. multiply witdh by hight to get the area.
+4. Return the result to the user.
 
 
 
