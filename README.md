@@ -264,4 +264,12 @@ console.log(floatNumber + 10);
 ```
 
 * The output:
- > 22 
+ > 22
+
+* We can see here, the we did the abstraction to a string by use parseFloat(), that is the purpese to use this method.
+
+Here are some additional benefits of using the parseFloat() method:
+
+* It is a concise and easy-to-use method.
+* It is a reliable method that will correctly parse most strings that contain numbers.
+* It is a versatile method that can be used to parse a wide variety of strings.
