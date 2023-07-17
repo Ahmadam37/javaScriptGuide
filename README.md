@@ -153,9 +153,14 @@ Where possible, a varible's name should describe the kind of data the varible ho
 * BOOLEAN DATA TYPE ==> Boolean data types can have one of two values: true or false.
 
 ```javascript
-var price = 100 //This is a Numeric data type
-var myName = 'Ahmad' //This is a String data type
-var checkValue = true
+ var price = 100; //This is a Numeric data type
+      var myName = "Ahmad"; //This is a String data type
+      var checkValue = true; //This is a boolean data type
+
+//This is to check data type of each varible.
+      console.log(typeof price);
+      console.log(typeof myName);
+      console.log(typeof checkValue);
 ```
 Numbers are not only used for things like calculators; they are also used for tasks such as determining the size of the screen, moving the postion of an element on a page, or setting the amount of time an element should take to fade in.
 
