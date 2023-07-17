@@ -166,6 +166,52 @@ Numbers are not only used for things like calculators; they are also used for ta
 
 
 
+### RULES FOR NAMING VARIABLES:
+
+1. The name must begin with a letter, dollar sign ($), or an underscore(_). it must not start with a number
+2. The name can contain letters, numbers, dollar sign ($), or an underscore (_). Note that you must not use dash(-) or a period (.) in a varible name.
+3. You cannot use **keywords** or **reserved** words. Keywords are special word that tell the intepreter to do somthing. Reserved words are onse that may be used in a _future_ version of JavaScript.
+4. All varibles are case sensitive, so score and Score would be diffrente variable names.
+5. Use a name that describes the kind of Information that the variable stores.
+6. If your varibale name is made up of more than one word, use a capital letter for the first word. 
+
+
+### ARRAYS
+
+An array is a special type of varible. It doesn't just store one value; it stores a list of values.
+
+You should consider using an array whenever you are working with a **list** or set of values that are **related** to each other.
+
+Arrays are especially helpful when you do not need to specify how many values it will hold.
+
+
+### CREATING AN ARRAY:
+
+You create an array and give it a name just like you would any other varible (using the var keyword followed by the name of the array).
+
+```javascript
+var colors;
+colors = ['white', 'black', 'red'];
+
+var el = document.getElementById('colors');
+el.textContent = colors[0];
+```
+
+This technique called as an **array literal**.
+
+```javascript
+var colors;
+colors = new Array('white',
+ 'black',
+ 'red')
+
+var el = document.getElementById('colors');
+el.textContent = colors[0];
+```
+This technique called as an **array constructor**.
+
+**NOTE**: The array literal is preferred over the array constructor when you creating arrays.
+
 ## JavaScript Math Object
 ### The JavaScript Math object is a built-in object that provides a number of methods and properties for performing mathematical tasks. 
 
