@@ -129,8 +129,8 @@ You mghit be able to calculate this, but if you write a script you have to give 
 var quantity;
 ```
 
-var is a keyword.
-quantity is a varibale name.
+**var** is a keyword.
+**quantity** is a varibale name.
 
 **var** is an example of what programmers call a keyword.
 The javascript intepreter knows that this keyword is used to create a varible. In order to use the varible, you must give a name.(This is sometimes called an identifier.) In this case, the varible is called **quantity**.
