@@ -123,9 +123,41 @@ You mghit be able to calculate this, but if you write a script you have to give 
 
 
 
+### HOW TO DECLARE THEM.
+
+```javascript
+var quantity;
+```
+
+var is a keyword.
+quantity is a varibale name.
+
+**var** is an example of what programmers call a keyword.
+The javascript intepreter knows that this keyword is used to create a varible. In order to use the varible, you must give a name.(This is sometimes called an identifier.) In this case, the varible is called **quantity**.
 
 
+### HOW ASSIGN TO VARIBLE A VALUE.
 
+```javascript
+var quantity = 3;
+```
+
+You can now use the varible by its name. Here we set a value for the varible called **quantity**.
+Where possible, a varible's name should describe the kind of data the varible holds.
+
+
+### Data Types:
+
+* NUMERIC DATA TYPE ==> The numeric data type handel numbers. ==> 0.75
+* STRING DATA type ==> The string data type consists of letters and other characters. ==> 'Hi, Ahmad'
+* BOOLEAN DATA TYPE ==> Boolean data types can have one of two values: true or false.
+
+```javascript
+var price = 100 //This is a Numeric data type
+var myName = 'Ahmad' //This is a String data type
+var checkValue = true
+```
+Numbers are not only used for things like calculators; they are also used for tasks such as determining the size of the screen, moving the postion of an element on a page, or setting the amount of time an element should take to fade in.
 
 
 
