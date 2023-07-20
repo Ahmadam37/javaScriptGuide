@@ -240,6 +240,18 @@ var TheArrayLength = color.length;
 console.log(TheArrayLength);
 //The output should be ==> 3
 ```
+
+* How to Changing Values in an array.
+  **To access a value from an array, after the array name you specify the index number for that value inside square brackets.**
+  ```javascript
+  var color;
+  color = ['white', 'red', 'green'];
+  color[2] = 'black';
+
+  console.log(color[2]);
+
+  //The output should be ==> 'black'
+  ```
 ## JavaScript Math Object
 ### The JavaScript Math object is a built-in object that provides a number of methods and properties for performing mathematical tasks. 
 
