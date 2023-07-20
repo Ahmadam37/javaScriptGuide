@@ -271,7 +271,7 @@ console.log(TheArrayLength);
      ```javascript
      var area = 3 * 2;
      ```
-     *Note:* **The value of area is now**
+     *Note:* **The value of area is now 6**
 
 ## JavaScript Math Object
 ### The JavaScript Math object is a built-in object that provides a number of methods and properties for performing mathematical tasks. 
