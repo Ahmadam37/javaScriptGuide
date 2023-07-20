@@ -212,6 +212,33 @@ This technique called as an **array constructor**.
 
 **NOTE**: The array literal is preferred over the array constructor when you creating arrays.
 
+
+### VALUES IN ARRAY:
+* Numbering item in an array:
+  **Each item in an array is automatically given a number called index**
+  ```javascript
+  var color;
+  //Index:    0       1       2     
+  color = ['white', 'red', 'green']
+  ```
+
+  * Accesing item in an array;
+**To retrive the second item on the list the array name is specified along with the index number in square brackets**
+ ```javascript
+var color;
+color = ['white', 'red', 'green']
+var item = color[2]
+//The output should be red
+```
+* Number of item in an array.
+  **Each array has a property called 'Length', which holds the number of items in the array**
+```javascript
+var color;
+color = ['white', 'red', 'green'];
+var TheArrayLength = color.length
+
+//The output should be ==> 3
+```
 ## JavaScript Math Object
 ### The JavaScript Math object is a built-in object that provides a number of methods and properties for performing mathematical tasks. 
 
