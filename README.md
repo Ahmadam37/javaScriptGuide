@@ -263,7 +263,7 @@ console.log(TheArrayLength);
    ```javascript
    var color = 'black';
    ```
-   *Note***The value color is now black**
+   *Note* **The value color is now black**
 
 
 2. Epressions that use two or more values to return a single value.
@@ -271,7 +271,7 @@ console.log(TheArrayLength);
      ```javascript
      var area = 3 * 2;
      ```
-     *Note***The value of area is now**
+     *Note* **The value of area is now**
 
 ## JavaScript Math Object
 ### The JavaScript Math object is a built-in object that provides a number of methods and properties for performing mathematical tasks. 
