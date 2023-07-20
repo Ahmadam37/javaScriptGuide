@@ -273,6 +273,39 @@ console.log(TheArrayLength);
      ```
      *Note:* **The value of area is now 6**
 
+### OPERATORS
+**Expressions rely on things called *operators*; they allow programmers to crate a single value from one or more values**
+1. Assignment operators
+    * Assign a value to a varible
+      ```javascript
+      var color = 'black';
+      ```
+      > The value of color is now black
+2. Arithmetic Operators
+    * Perform basic math
+      ```javascript
+      var area = 3 * 2;
+      ```
+      > The value of area is now 6
+3. Srting Operators
+    * Combine two strings
+   ```javascript
+   greeting = 'Hi ' + 'Ahmad';
+   ```
+   > The value of greeting is now Hi Ahmad
+4. Comparison Operators
+    * Compare two values and return true or false.
+   ```javascript
+   var buy = 3 > 5;
+   ```
+   > The value of buy is now false
+5. Logical Operators
+    * Combine expression and return true or false.
+  ```javascript
+var buy = (5 > 3) && (2 < 4);
+```
+> The value of buy is now true
+
 ## JavaScript Math Object
 ### The JavaScript Math object is a built-in object that provides a number of methods and properties for performing mathematical tasks. 
 
