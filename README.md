@@ -228,6 +228,7 @@ This technique called as an **array constructor**.
 var color;
 color = ['white', 'red', 'green']
 var item = color[2]
+console.log(item)
 //The output should be red
 ```
 * Number of item in an array.
@@ -235,8 +236,8 @@ var item = color[2]
 ```javascript
 var color;
 color = ['white', 'red', 'green'];
-var TheArrayLength = color.length
-
+var TheArrayLength = color.length;
+console.log(TheArrayLength);
 //The output should be ==> 3
 ```
 ## JavaScript Math Object
