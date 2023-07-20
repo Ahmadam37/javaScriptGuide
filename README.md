@@ -259,7 +259,7 @@ console.log(TheArrayLength);
 **An Expression evaluate into (result in) a single value. Broadly speaking there are two types of expression.**
 
 1. Expression that just assign a value to a varible.
- * In order for a varible to be useful, it needs to be given a value. As you seen, this is done using the assignment operator (the equal sign).
+   * In order for a varible to be useful, it needs to be given a value. As you seen, this is done using the assignment operator (the equal sign).
    ```javascript
    var color = 'black';
    ```
