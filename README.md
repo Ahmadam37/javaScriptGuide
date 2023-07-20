@@ -252,6 +252,27 @@ console.log(TheArrayLength);
 
   //The output should be ==> 'black'
   ```
+
+
+
+### EXPRESSIONS
+**An Expression evaluate into (result in) a single value. Broadly speaking there are two types of expression.**
+
+1. Expression that just assign a value to a varible.
+ * In order for a varible to be useful, it needs to be given a value. As you seen, this is done using the assignment operator (the equal sign).
+   ```javascript
+   var color = 'black';
+   ```
+   *Note***The value color is now black**
+
+
+2. Epressions that use two or more values to return a single value.
+   * You can perform operations on any number of individual values (see next page) to determine a single value.
+     ```javascript
+     var area = 3 * 2;
+     ```
+     *Note***The value of area is now**
+
 ## JavaScript Math Object
 ### The JavaScript Math object is a built-in object that provides a number of methods and properties for performing mathematical tasks. 
 
